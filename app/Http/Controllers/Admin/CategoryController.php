@@ -147,7 +147,7 @@ class CategoryController extends Controller
             {
                 Storage::disk('public')->delete('category/'.$category->image);
 
-            } 
+            }
 
 //            resize image for category and upload
             $categoryimage = Image::make($image)->resize(1600,479)->save($image->getClientOriginalExtension());
@@ -206,7 +206,7 @@ class CategoryController extends Controller
 
 
         $category->delete();
-        \Brian2694\Toastr\Facades\Toastr::success('tag successfully Updated ','Success');
+        Toastr::success('Category Successfully Updated ','Success');
 
         return redirect()->back();
 
