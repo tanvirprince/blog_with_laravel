@@ -105,7 +105,7 @@ class TagController extends Controller
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
-     */s
+     */
     public function destroy($id)
     {
         Tag::find($id)->delete();
