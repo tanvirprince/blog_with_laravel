@@ -1,3 +1,32 @@
+1. 
+![Untitled](https://user-images.githubusercontent.com/22098329/89647397-53980600-d8df-11ea-8886-0587095693c8.png)
+2.
+![2](https://user-images.githubusercontent.com/22098329/89647531-8510d180-d8df-11ea-800a-19b57ff94aea.png)
+3.
+![dashboard](https://user-images.githubusercontent.com/22098329/89647629-ab367180-d8df-11ea-8149-eb97b92c6e53.png)
+4.
+![addpost](https://user-images.githubusercontent.com/22098329/89647662-b5587000-d8df-11ea-803d-d97a465677b1.png)
+5.
+![details](https://user-images.githubusercontent.com/22098329/89647674-b8ebf700-d8df-11ea-8dd5-4bd539bf1123.png)
+6. 
+![like](https://user-images.githubusercontent.com/22098329/89647736-d751f280-d8df-11ea-8e00-f1f81b119551.png)
+7.
+![profile setting](https://user-images.githubusercontent.com/22098329/89647740-dae57980-d8df-11ea-8a5b-c19df747a462.png)
+8.
+![post](https://user-images.githubusercontent.com/22098329/89647798-fc466580-d8df-11ea-97eb-105a0b2963da.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
