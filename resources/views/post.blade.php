@@ -11,7 +11,7 @@
 
     <style>
         .header-bg{ height: 400px; width: 100%; background-size: cover; margin: 0;
-            background-image: url({{ asset('/storage/post/'.$post->image)}}); }
+            background-image: url({{ asset('/../storage/app/public/post/'.$post->image)}}); }
 
 
 
@@ -44,7 +44,7 @@
                             <div class="post-info">
 
                                 <div class="left-area">
-                                    <a class="avatar" href="#"><img src="{{ asset('/storage/profile/'.$post->user->image)}}" alt="Profile Image"></a>
+                                    <a class="avatar" href="#"><img src="{{ asset('/../storage/app/public/profile/'.$post->user->image)}}" alt="Profile Image"></a>
                                 </div>
 
                                 <div class="middle-area">
@@ -170,9 +170,9 @@
                         <div class="card h-100">
                             <div class="single-post post-style-1">
 
-                                <div class="blog-image"><img src="{{ asset('/storage/post/'.$randompost->image)}}" alt="Blog Image"></div>
+                                <div class="blog-image"><img src="{{ asset('/../storage/app/public/post/'.$randompost->image)}}" alt="Blog Image"></div>
 
-                                <a class="avatar" href="#"><img src="{{ asset('/storage/profile/'.$randompost->user->image)}}" alt="Profile Image"></a>
+                                <a class="avatar" href="#"><img src="{{ asset('/../storage/app/public/profile/'.$randompost->user->image)}}" alt="Profile Image"></a>
 
                                 <div class="blog-info">
 

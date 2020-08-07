@@ -8,8 +8,8 @@
 
 
     <style>
-        .header-bg{ height: 500px; width: 100%; background-size: cover; margin: 0;
-            background-image: url({{ asset('/storage/category/'.$category->image)}}); }
+        .header-bg{ height: 400px; width: 100%; background-size: cover; margin: 0;
+            background-image: url({{ asset('/../storage/app/public/category/'.$category->image)}}); }
 
 
 
@@ -25,7 +25,10 @@
 @section('content')
 
     <div class="header-bg text-lg-center">
-        <h1> {{ $category->name }}</h1>
+
+        <button type="button" class="mt-5 btn-lg btn btn-light">
+            <h3> {{ $category->name }} </h3>
+        </button>
 
     </div>
 
@@ -47,9 +50,9 @@
                         <div class="card h-100">
                             <div class="single-post post-style-1">
 
-                                <div class="blog-image"><img src="{{ asset('/storage/post/'.$post->image)}}" alt="Blog Image"></div>
+                                <div class="blog-image"><img src="{{ asset('/../storage/app/public/post/'.$post->image)}}" alt="Blog Image"></div>
 
-                                <a class="avatar" href="{{ route('author.profile',$post->user->username) }}"><img src="{{ asset('/storage/profile/'.$post->user->image)}}" alt="Profile Image"></a>
+                                <a class="avatar" href="{{ route('author.profile',$post->user->username) }}"><img src="{{ asset('/../storage/app/public/profile/'.$post->user->image)}}" alt="Profile Image"></a>
 
                                 <div class="blog-info">
 

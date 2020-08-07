@@ -24,6 +24,8 @@
                 @endif
             @endguest
 
+            <li><a href="{{ route('register') }}">Registration</a></li>
+
         </ul><!-- main-menu -->
 
         <div class="src-area">

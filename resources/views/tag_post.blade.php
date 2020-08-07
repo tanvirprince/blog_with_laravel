@@ -48,9 +48,9 @@
                         <div class="card h-100">
                             <div class="single-post post-style-1">
 
-                                <div class="blog-image"><img src="{{ asset('/storage/post/'.$post->image)}}" alt="Blog Image"></div>
+                                <div class="blog-image"><a href="{{ route('post.details',$post->slug) }}"><img src="{{ asset('/../storage/app/public/post/'.$post->image)}}" alt="Blog Image"></a></div>
 
-                                <a class="avatar" href="#"><img src="{{ asset('/storage/profile/'.$post->user->image)}}" alt="Profile Image"></a>
+                                <a class="avatar" href="{{ route('author.profile',$post->user->username) }}"><img src="{{ asset('/../storage/app/public/profile/'.$post->user->image)}}" alt="Profile Image"></a>
 
                                 <div class="blog-info">
 

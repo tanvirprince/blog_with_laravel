@@ -19,11 +19,11 @@
                     <div class="profile-header">&nbsp;</div>
                     <div class="profile-body">
                         <div class="image-area">
-                            <img src="{{ asset('/storage/profile/'.Auth::user()->image) }}" alt="Profile Image" style="height: 130px"  />
+                            <img src="{{ asset('/../storage/app/public/profile/'.Auth::user()->image) }}" alt="Profile Image" style="height: 130px"  />
                         </div>
                         <div class="content-area">
                             <h3>{{ Auth::user()->name }}</h3>
-                            <p>Web Software Developer</p>
+                            <p> Developer </p>
                             <p>Administrator</p>
                         </div>
                     </div>
